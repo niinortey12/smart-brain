@@ -96,7 +96,7 @@ class App extends Component {
     //     Clarifai.FACE_DETECT_MODEL,
     //     this.state.input)
       .then(response => {
-        console.log('hello', response)
+        console.log('hi', response)
         if (response) {
           fetch('http://localhost:3000/image', {
             method: 'put',
